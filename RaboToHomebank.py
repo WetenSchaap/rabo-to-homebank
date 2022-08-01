@@ -70,7 +70,7 @@ for fn in todo:
         HBoutput.to_csv("{0}.csv".format(account + "_" + current_date),
                         sep = ';', index=False,header=False,
                         )
-    print("Conversion of {0} complete, .csv saved in {1}." % (fn, os.cwd()) )
+    print("Conversion of {0} complete, .csv saved in {1}.".format(fn, os.getcwd()) )
         
 #%%Info
     
